@@ -937,7 +937,7 @@ a.ui-link-inherit {
     height: 100%;
 }
 .ui-footer {
-    position: absolute !important;
+    /*position: absolute !important;*/
     bottom: 0;    
 }
 

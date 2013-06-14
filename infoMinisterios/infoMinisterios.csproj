@@ -57,18 +57,63 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="images\.gitattributes" />
+    <Content Include="images\.gitignore" />
+    <Content Include="images\ajax-loader.png" />
+    <Content Include="images\form-check-off.png" />
+    <Content Include="images\form-check-on.png" />
+    <Content Include="images\form-radio-off.png" />
+    <Content Include="images\form-radio-on.png" />
+    <Content Include="images\icon-search-black.png" />
+    <Content Include="images\icons-18-black.png" />
+    <Content Include="images\icons-18-white.png" />
+    <Content Include="images\icons-36-black.png" />
+    <Content Include="images\icons-36-white.png" />
+    <Content Include="index.html" />
+    <Content Include="jquery-1.5.min.js" />
+    <Content Include="jquery.mobile-1.0a3.min.css" />
+    <Content Include="jquery.mobile-1.0a3.min.js" />
+    <Content Include="phonegap.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\.git\config" />
+    <Content Include="images\.git\description" />
+    <Content Include="images\.git\HEAD" />
+    <Content Include="images\.git\hooks\README.sample" />
+    <Content Include="images\.git\info\exclude" />
+    <Content Include="images\.git\objects\32\bd43392e23d35ac9fec45688cc7757426a8d86" />
+    <Content Include="images\.git\objects\36\57baea879d521240f680fbec8272359cf68146" />
+    <Content Include="images\.git\objects\41\2eeda78dc9de1186c2e0e1526764af82ab3431" />
+    <Content Include="images\.git\objects\54\e2fe0f80d066b60567f22a15c0e29a6636969f" />
+    <Content Include="images\.git\objects\57\21120f8df590d9b745fe96342590600580954b" />
+    <Content Include="images\.git\objects\79\b6d601bbc6ea1c910184f4bf9085c4c032ff2e" />
+    <Content Include="images\.git\objects\81\1a2cdd1b492c47faf85c1206ad6606521eb6e4" />
+    <Content Include="images\.git\objects\81\1bfc0edf2f20b958f926c727bba3d535971f6c" />
+    <Content Include="images\.git\objects\b9\d6bd92f5f09e195d6bc19536500b6494dd2b75" />
+    <Content Include="images\.git\objects\cc\ca7b44b7bf70d0e2cd03b04f6636b0d26e6b6e" />
+    <Content Include="images\.git\objects\dd\c40497055e1e4dc24b4cb2397923b9ae3061f9" />
+    <Content Include="images\.git\objects\e1\b9c04ea95f0869deb5ca65febb64870b4cdf57" />
+    <Content Include="images\.git\objects\e6\daaaf8b10684cc6bcdb58f038616800182bbee" />
+    <Content Include="images\.git\objects\fc\18058fa4df9e10cb2d5e658085854cb5cf261c" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="website.publishproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\.git\objects\info\" />
+    <Folder Include="images\.git\objects\pack\" />
+    <Folder Include="images\.git\refs\heads\" />
+    <Folder Include="images\.git\refs\tags\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

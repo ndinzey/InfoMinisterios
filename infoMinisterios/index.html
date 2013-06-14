@@ -6,8 +6,16 @@
 <link href="jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.5.min.js" type="text/javascript"></script>
 <script src="jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<script src="jquery.zrssfeed.min.js" type="text/javascript"></script>
 <!-- Esta referencia a phonegap.js permitirá disponer de sugerencias para el código, siempre y cuando el sitio actual se haya configurado como aplicación móvil. Para configurar el sitio como aplicación móvil, vaya a Sitio -> Aplicaciones móviles -> Configurar framework de aplicación... -->
 <script src="/phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#test').rssfeed('http://feeds.reuters.com/reuters/oddlyEnoughNews', {
+            limit: 5
+        });
+    });
+</script>
 </head> 
 <body> 
 
@@ -32,7 +40,7 @@
 		<h1>Página dos</h1>
 	</div>
 	<div data-role="content">	
-		Contenido		
+		<div id="test"></div>		
 	</div>
 	<div data-role="footer">
 		<h4>Pie de página</h4>

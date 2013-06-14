@@ -75,6 +75,7 @@
     <Content Include="jquery-1.5.min.js" />
     <Content Include="jquery.mobile-1.0a3.min.css" />
     <Content Include="jquery.mobile-1.0a3.min.js" />
+    <Content Include="jquery.zrssfeed.min.js" />
     <Content Include="phonegap.js" />
     <Content Include="Web.config" />
   </ItemGroup>

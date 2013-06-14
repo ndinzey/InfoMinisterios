@@ -71,7 +71,8 @@
     <Content Include="images\icons-18-white.png" />
     <Content Include="images\icons-36-black.png" />
     <Content Include="images\icons-36-white.png" />
-    <Content Include="index.html" />
+    <None Include="index.bk" />
+    <Content Include="index.aspx" />
     <Content Include="jquery-1.5.min.js" />
     <Content Include="jquery.mobile-1.0a3.min.css" />
     <Content Include="jquery.mobile-1.0a3.min.js" />
@@ -79,6 +80,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
